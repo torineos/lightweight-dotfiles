@@ -1,0 +1,17 @@
+antigen use oh-my-zsh
+antigen theme xiong-chiamiov-plus
+
+# Chunk of plugins
+## omz
+antigen bundle git
+antigen bundle sudo
+antigen command-not-found
+antigen-common-aliases
+antigen bundle zsh-navigation-tools
+# external
+antigen bundle desyncr/auto-ls
+# This must be the last bundle else it doesnt get applied
+antigen bundle zsh-users/zsh-syntax-highlighting
+
+# Keep that line at the end of antigen config
+antigen apply
