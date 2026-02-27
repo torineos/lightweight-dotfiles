@@ -5,8 +5,8 @@ antigen theme xiong-chiamiov-plus
 ## omz
 antigen bundle git
 antigen bundle sudo
-antigen command-not-found
-antigen-common-aliases
+antigen bundle command-not-found
+antigen bundle antigen-common-aliases
 antigen bundle zsh-navigation-tools
 # external
 antigen bundle desyncr/auto-ls
