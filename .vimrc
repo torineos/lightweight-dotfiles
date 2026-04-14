@@ -34,3 +34,5 @@ Plug 'chiel92/vim-autoformat'
 Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 call plug#end()
 
+" xterm-kitty bug fix
+let &t_ut=''
