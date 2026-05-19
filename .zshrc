@@ -2,9 +2,6 @@
 autoload -Uz compinit && compinit
 
 ### SNIPPETS
-# Snippet for cattpuccin mocha colors, different from my own color scheme to
-# differentiate distant shell from local
-source ~/.zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
 # Snippet for antigen plugins
 source ~/.zsh/antigen.zsh
 

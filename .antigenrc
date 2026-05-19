@@ -10,8 +10,8 @@ antigen bundle antigen-common-aliases
 antigen bundle zsh-navigation-tools
 # external
 antigen bundle desyncr/auto-ls
-# This must be the last bundle else it doesnt get applied
+# This must be the last bundle else it doesn't get applied
 antigen bundle zsh-users/zsh-syntax-highlighting
 
-# Keep that line at the end of antigen config
+# Keep that line at the end of antigen conf
 antigen apply
